@@ -1,0 +1,14 @@
+{
+  "name": "quizits-company-profile",
+  "version": "1.0.0",
+  "description": "Company Profile for QuiZITS AI App",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Berlian Yafi, Azka, Fidel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}

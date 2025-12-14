@@ -1,0 +1,32 @@
+:root {
+    --brand-yellow: #FFF176;
+    --brand-pink: #FF007F;
+    --brand-red: #8B0000;
+    --brand-cream: #FFFDE7;
+}
+
+body {
+    background: linear-gradient(180deg, #FFF9C4 0%, #FFF59D 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.text-brand-pink { color: var(--brand-pink); }
+.bg-brand-pink { background-color: var(--brand-pink); }
+.bg-brand-red { background-color: var(--brand-red); }
+
+.phone-frame {
+    border: 8px solid #1a1a1a;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.phone-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
